@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=], initial-scale=1.0" />
+    <title>project 1</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="media.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--  Enquiry Form Modal -->
+    <div class="modal fade" id="EnModal">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalToggleLabel">
+              Enquiry Form
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="form-sec p-0">
+              <p class="p-0 m-0 fw-bold p-2">Name</p>
+              <input
+                type="text"
+                placeholder="Enter Your Name"
+                class="form-control"
+              />
+              <p class="p-0 m-0 fw-bold p-2">Email</p>
+              <input
+                type="text"
+                placeholder="Enter Your Email"
+                class="form-control"
+              />
+              <p class="p-0 m-0 fw-bold p-2">Mobile</p>
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">+91</span>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter Your Mobile Number"
+                />
+              </div>
+              <button class="reg-btn mt-4 shadow">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  Book Modal -->
+    <div class="modal fade" id="BkModal">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalToggleLabel">
+              Demo Class
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="form-sec p-0">
+              <p class="p-0 m-0 fw-bold p-2">Email</p>
+              <input
+                type="text"
+                placeholder="Enter Your Email"
+                class="form-control"
+              />
+              <p class="p-0 m-0 fw-bold p-2">Mobile</p>
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">+91</span>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter Your Mobile Number"
+                />
+              </div>
+              <button class="reg-btn mt-4 shadow">Book Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header class="container-fluid py-2 shadow-lg">
+      <div class="container">
+        <div class="row align-items-center">
+          <figure class="col-lg-6 pb-0 mb-0 text-center text-lg-start">
+            <img src="wscube-tech-logo.svg" alt="" class="web-logo" />
+          </figure>
+          <div class="col-lg-6">
+            <div class="btn-outer text-end d-flex gap-3 justify-content-lg-end">
+              <button class="whatsappbtn">
+                <i class="fa-brands fa-whatsapp i-wap"></i> Chat With Us
+              </button>
+              <button class="callbtn">
+                <i class="fa-solid fa-phone"></i> Call Us
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="container-fluid pt-5">
+      <div class="container pt-4">
+        <div class="row">
+          <div class="col-lg-8 col-12 hero-sec">
+            <h1 class="fw-bold">
+              Career Opportunities in
+              <p class="highlight-txt">Digital Marketing</p>
+            </h1>
+            <h5 class="pt-2 pb-3 offer-para">
+              Digital marketing course so good.you only pay after placement
+            </h5>
+            <p>
+              <i class="fa-solid fa-circle-check text-primary"></i>
+              Specializaton Performance Marketing
+            </p>
+            <p>
+              <i class="fa-solid fa-circle-check text-primary"></i> Min salary
+              of Rs 4.5 LPA
+            </p>
+            <p>
+              <i class="fa-solid fa-circle-check text-primary"></i> 50 seats
+              only
+            </p>
+            <div class="btn-sec d-flex gap-4 pt-3">
+              <button
+                class="demp-btn book-btn shadow"
+                data-bs-toggle="modal"
+                data-bs-target="#BkModal"
+              >
+                Book 2 Days Demo
+              </button>
+              <button
+                class="btn btn-outline-secondary curriculum-btn shadow"
+                data-bs-toggle="modal"
+                data-bs-target="#EnModal"
+              >
+                <span><i class="fa-solid fa-download"></i></span> Download
+                Curriculum
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-12 pt-5 pt-lg-0">
+            <div class="form-sec shadow p-4">
+              <p class="fw-bold form-head">Book Your Free Class Now!</p>
+              <p class="form-text p-0">
+                2 days of free demo classes without paying in advance
+              </p>
+              <p class="p-0 m-0 fw-bold p-2">Name</p>
+              <input
+                type="text"
+                placeholder="Enter Your Name"
+                class="form-control"
+              />
+              <p class="p-0 m-0 fw-bold p-2">Email</p>
+              <input
+                type="text"
+                placeholder="Enter Your Email"
+                class="form-control"
+              />
+              <p class="p-0 m-0 fw-bold p-2">Mobile</p>
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">+91</span>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter Your Mobile Number"
+                />
+              </div>
+              <button class="reg-btn mt-2 shadow">Register Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container-fluid">
+      <div class="container shadow mt-5 featured-sec">
+        <div class="row p-3 rounded align-items-center text-center">
+          <div class="col-lg col-6 featured-cnt">
+            <h2 class="featured-txt">1000+</h2>
+            <h5>Students Trained</h5>
+          </div>
+          <div class="col-lg col-6 featured-cnt">
+            <h2 class="featured-txt">₹4.5LPA</h2>
+            <h5>Average Salary</h5>
+          </div>
+          <div class="col-lg col-6 featured-cnt">
+            <h2 class="featured-txt">320+</h2>
+            <h5>Recruiting Partner</h5>
+          </div>
+          <div class="col-lg col-6 featured-cnt">
+            <h2 class="featured-txt">10:00am</h2>
+            <h5>Program Timings</h5>
+          </div>
+          <div class="col-lg col-6 featured-cnt">
+            <h2 class="featured-txt">11th May</h2>
+            <h5>Next Batch Start</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="highlight-sec pt-5">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="highlight-headline">Key Highlight of the Course</h2>
+              <h5 class="hightlight-des">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
+                omnis!
+              </h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <div class="hg-one">
+
+              </div>
+            </div>
+            <div class="col-4"></div>
+            <div class="col-4"></div>
+            <div class="col-4"></div>
+            <div class="col-4"></div>
+            <div class="col-4"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="Js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+</html>

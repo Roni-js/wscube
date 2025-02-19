@@ -1,0 +1,51 @@
+* {
+    font-family: "Inter", serif;
+}
+.whatsappbtn {
+border-radius: 8px;
+border-width: 1px;
+padding: 8px;
+background-color: white;
+color: #43D01D;
+border-color: #43D01D;
+}
+.whatsappbtn:hover{
+background-color: #43D01D;
+color: white;
+}
+.callbtn , .reg-btn , .demp-btn{
+border-radius: 8px;
+border-width: 1px;
+padding: 8px;
+border-color: #00BFFF;
+background: linear-gradient( to right, #00BFFF, #1E90FF);
+color: white;
+}
+.callbtn:hover{
+color: black;
+}
+.highlight-txt{
+    background: -webkit-linear-gradient(#00BFFF, #1E90FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} 
+.reg-btn:hover{
+color: black;
+opacity: .8;
+}
+.book-btn, .curriculum-btn{
+    font-weight: 600;
+}
+.book-btn:hover{
+    color: black;
+    opacity: .8;
+}
+.featured-txt{
+    font-weight: 700;
+    background: -webkit-linear-gradient(#00BFFF, #1E90FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.highlight-headline{
+    font-weight: 700;
+}
